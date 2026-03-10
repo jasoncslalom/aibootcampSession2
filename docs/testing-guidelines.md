@@ -24,7 +24,7 @@
 - Playwright tests must use one browser only.
 - Playwright tests must use the Page Object Model (POM) pattern for maintainability.
 - Limit E2E tests to 5–8 critical user journeys — focus on happy paths and key edge cases, not exhaustive coverage.
-
+gi
 ## Port Configuration
 
 Always use environment variables with sensible defaults for port configuration:
@@ -39,4 +39,4 @@ This allows CI/CD workflows to dynamically detect ports.
 - All tests must be isolated and independent — each test should set up its own data and not rely on other tests.
 - Setup and teardown hooks are required — tests must succeed on multiple runs.
 - All new features should include appropriate tests.
-- Tests should be maintainable and follow best practices.
+- Tests should be maintainable and follow best practices..git..
